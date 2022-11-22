@@ -1,0 +1,25 @@
+const nombre = 'Ramiro';
+const edad = 22;
+
+
+
+if (true){
+console.log('Si es desarrollador');
+}else {
+    console.log('No es desarrollador');
+}
+
+const fecha_nacimiento = new Date ("march 03 2001") // con la fecha
+
+const libro = {
+titulo: 'Viaje al centro de la tierra',
+autor:'Julio Verne',
+fecha:'25 de noviembre de 1864',
+url:'https://www.google.com/search?gs_ssp=eJzj4tTP1TcwNi1JSzdg9JIpy0zMSlVIzFFITs0rKcpXSElVyElUKMlMLSpKBAAIPA1z&q=viaje+al+centro+de+la+tierra&oq=viaje+al+&aqs=chrome.1.0i355i512j46i512j69i57j46i512l3j0i512l4.4786j0j7&sourceid=chrome&ie=UTF-8',
+}
+
+console.log(nombre);
+console.log(edad);
+console.log('Si es desarrollador');
+console.log(fecha_nacimiento)
+console.log(libro);
