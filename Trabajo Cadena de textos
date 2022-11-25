@@ -1,0 +1,32 @@
+//cadena de texto de nombre y apellido
+let str_Nombre=" Ramiro";
+let str_Apellido="Almiron";
+
+//cadena de texto de estudiante
+let str_estudiante=(str_Nombre +" "+ str_Apellido);
+console.log(str_estudiante);
+
+//cadena de texto de estudiante en mayusculas
+let str_estudianteMayus= str_estudiante;
+console.log(str_estudianteMayus.replace("Ramiro Almiron", "RAMIRO ALMIRON"))
+
+//cadena de texto de estudiante en minusculas
+let str_estudianteMinus= str_estudiante;
+console.log(str_estudianteMinus.replace("Ramiro Almiron","ramiro almiron")); 
+
+//cadena de texto contando el numero de letras de estudiante
+let str_estudiante2 = str_estudiante;
+console.log(str_estudiante2.length);
+
+// Una variable que contenga la primera letra del Nombre
+console.log(str_estudiante[0]);
+
+//Otra variable que contenga la última letra del Apellido
+console.log(str_estudiante[13]);
+
+//Una cadena de texto que elimine los espacios de la variable "estudiante"
+console.log(str_estudiante.trim().length);
+console.log(str_estudiante);
+
+//Una variable booleana que diga si el Nombre está contenido en la variable "estudiante"
+console.log(str_estudiante.includes("Ramiro"))
